@@ -7,7 +7,7 @@ import Cors from "cors";
 const app = express();
 const port = process.env.PORT || 8001;
 const connection_url =
-  "mongodb+srv://admin:pyo1vcxlbR2ptmvu@cluster0.3f2du.mongodb.net/tinderdb?retryWrites=true&w=majority";
+  "mongodb+srv://admin:<password>@cluster0.3f2du.mongodb.net/tinderdb?retryWrites=true&w=majority";
 
 //Middlewares
 app.use(express.json());
